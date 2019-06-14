@@ -1,0 +1,317 @@
+html {
+  body.page-template-mobile_app{
+    .main-footer{
+      position: static;
+    }
+  }
+}
+.modile_app.mobile_page{
+  margin-top: 0;
+  background-image: none;
+  .mobile_smock{
+    background-image: url(../images/smoke3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 780px;
+    height: 880px;
+    position: absolute;
+    bottom: -250px;
+    left: -170px;
+    background-size: cover;
+    opacity: 0.7;
+  }
+  .mobile_smock_right{
+    background-image: url(../images/smoke2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 780px;
+    height: 880px;
+    position: absolute;
+    top: -250px;
+    right: -170px;
+    background-size: cover;
+    opacity: 0.4;
+  }
+  .our_menu_text{
+    .mobile_app_btn{
+      display: flex;
+      justify-content: space-between;
+      .app_store.main_btn{
+        .learn_more{
+          color: $orange;
+        }
+        .arrow{
+          background-color: $white_lite;
+          .arrow_white{
+            padding-top: 55px;
+            background-position: 21px;
+            background-image: url(../images/apple.svg);
+          }
+        }
+      }
+      .google_app.main_btn {
+        .learn_more {
+          margin-right: 0;
+          left: 0;
+        }
+        .arrow {
+          .arrow_white{
+            padding-top: 58px;
+            background-position: 22px;
+            background-image: url(../images/google-play.svg);
+          }
+        }
+      }
+
+      .google_app.main_btn:hover{
+        .learn_more{
+          left: 20px;
+        }
+      }
+    }
+  }
+  .arrow_next_block{
+    position: relative;
+    left: 50%;
+    display: inline-block;
+    background-image: url(../images/circle.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    z-index: 20;
+    bottom: -120px;
+    span{
+      background-image: url(../images/Group1.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: 28px;
+      width: 55px;
+      height: 55px;
+      display: block;
+      position: relative;
+      z-index: 10;
+      top: -26px;
+      transition: all 0.3s ease-in;
+      &:hover{
+        top: -20px;
+        transition: all 0.3s ease-in;
+      }
+    }
+  }
+  .content_with_btn {
+    width: 74%;
+  }
+}
+.site {
+  .main-footer{
+    bottom: 0;
+  }
+}
+
+.main_features{
+  .bookmarks{
+    margin-top: 60px;
+    .bookmark{
+      margin-top: 15px;
+    }
+    .title2{
+      font-size: 20px;
+      margin-bottom: 0;
+    }
+    .info{
+      font-size: 16px;
+      opacity: 0.7;
+    }
+  }
+  .vertical_mobile_app_slider{
+    width: 50%;
+    .swiper-slide.image_item_vertical{
+      width: 300px;
+    }
+  }
+  .mobile_border{
+    background-size: contain;
+    background-image: url(../images/Iphone.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    z-index: 411;
+    position: absolute;
+    height: 524px;
+    width: 264px;
+    left: 47%;
+    top: -17px;
+  }
+  .owlExample{
+  .owl-nav{
+    display: none;
+  }
+    .owl-stage{
+
+      //height: 100px;
+
+      .owl-item{
+        //width: 380px !important;
+      }
+      .owl-item.big.active{
+
+        transition: all 0.3s ease-in;
+      }
+      .owl-item.medium.mdright.active{
+        left: 15px;
+        transition: all 0.3s ease-in;
+        transform:scale(.9);
+        .image_item_vertical{
+          img{
+            //box-shadow: 0 0 50px black;
+          }
+        }
+      }
+      .owl-item.active{
+        //transform:scale(.9);
+      }
+    }
+  }
+  .bookmarks{
+    .bookmark{
+      display: flex;
+      .icons_features{
+       text-align: center;
+        svg{
+          width: 60px;
+          height: 45px;
+        }
+      }
+      .description{
+        margin-left: 36px;
+      }
+    }
+
+    .bookmark.active{
+      .icons_features{
+        svg{
+          path{
+            fill:$orange;
+          }
+        }
+      }
+      .description{
+        .title2{
+          color: $orange;
+        }
+      }
+    }
+  }
+}
+.app_gallery{
+  .gallery_slider{
+    height: 100%;
+    .one_image{
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 300px;
+    }
+  }
+
+  .carousel{
+    margin: 0 auto;
+    width: 740px;
+    height: 700px;
+
+    .border_phone{
+      background-size: contain;
+      background-image: url(../images/Iphone.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      z-index: 2121;
+      position: absolute;
+      height: 570px;
+      left: 231px;
+      width: 284px;
+      top: 65px;
+    }
+  }
+  .carousel img {
+    display: hidden; /* hide images until carousel prepares them */
+    cursor: pointer; /* not needed if you wrap carousel items in links */
+    width: 250px;
+    height: 530px;
+  }
+  a.nav_button {
+    position: relative;
+    top: -42%;
+
+    .circle{
+      position: absolute;
+      background-image: url(../images/circle.svg);
+      background-repeat: no-repeat;
+      cursor: pointer;
+      z-index: 720;
+      width: 60px;
+      height: 55px;
+      background-size: contain;
+      .arrow_left{
+        background-image: url(../images/Group1.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 28px;
+        width: 55px;
+        height: 55px;
+        display: block;
+        position: relative;
+        z-index: 10;
+        transition: all 0.3s ease-in;
+        transform: rotate(90deg);
+        left: 15px;
+        &:hover{
+          left: 0;
+          transition: all 0.3s ease-in;
+        }
+      }
+      .arrow_right{
+        background-image: url(../images/Group1.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 28px;
+        width: 55px;
+        height: 55px;
+        display: block;
+        position: relative;
+        z-index: 10;
+        transition: all 0.3s ease-in;
+        transform: rotate(-90deg);
+        left: -15px;
+        &:hover{
+          left: 0;
+          transition: all 0.3s ease-in;
+        }
+      }
+    }
+  }
+}
+
+.join_up_now {
+  position: relative;
+  top: -120px;
+  .content{
+    height: 360px;
+    margin: 110px auto 0;
+    max-width: 650px;
+    .mobile_app_btn{
+      margin-left: 110px;
+      margin-right: 110px;
+    }
+    .title{
+      margin-bottom: 0;
+    }
+  }
+  .main_features_text,.mobile_app_btn {
+    text-align: center;
+  }
+}
+.join_up_now.modile_app{
+  background-image: none;
+}
+#carrousel  .owl-carousel.owl-theme2{
+  display: none;
+}

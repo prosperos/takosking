@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../overton/.idea/buro.iml" filepath="$PROJECT_DIR$/../overton/.idea/buro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../bwp/.idea/bwp.iml" filepath="$PROJECT_DIR$/../bwp/.idea/bwp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ccc/.idea/ccc.iml" filepath="$PROJECT_DIR$/../ccc/.idea/ccc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/takos.log.iml" filepath="$PROJECT_DIR$/.idea/takos.log.iml" />
+    </modules>
+  </component>
+</project>

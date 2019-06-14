@@ -1,0 +1,100 @@
+.main-footer{
+  position: absolute;
+  bottom: 220px;
+  width: 100%;
+  left: 0;
+  .left_side{
+    display: flex;
+    justify-content: space-between;
+    background-color: #141214;
+    height: 123px;
+    align-items: center;
+    margin-top: 11px;
+    .footer_logo{
+      margin-left: 40px;
+      width: 150px;
+
+      h6{
+        font-size: 16px;
+        color: $white_lite;
+        font-family: $opensans;
+        opacity: 0.5;
+        margin-top: 12px;
+      }
+    }
+    .site_info{
+      margin-right: 40px;
+      display: flex;
+      align-items: center;
+      transition: all 0.3s ease-in;
+      span{
+        a{
+          margin-left: 5px;
+        }
+        &:hover{
+          a,i{
+            color: $white_lite;
+            transition: all 0.3s ease-in;
+          }
+        }
+      }
+      a,i{
+        color: $orange;
+        &:hover{
+          opacity: 1;
+        }
+      }
+      a{
+        font-family: $opensans;
+        margin-left: 20px;
+
+      }
+      .footer_link{
+        font-size: 24px;
+        background-color: #1B191C;
+        width: 50px;
+        height: 50px;
+        border-radius: 30px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease-in;
+        &:hover{
+          transition: all 0.3s ease-in;
+          color: rgba(236,236,236, 0.1);
+          background-color:#3D3D3D;
+        }
+      }
+    }
+  }
+  .footer_bottom__copyright{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    >img{
+      max-width: 130px;
+      height: 37px;
+      opacity: 0.3;
+      cursor: pointer;
+      transition: all 0.3s ease-in;
+      &:hover{
+        opacity: 1;
+        transition: all 0.3s ease-in;
+      }
+    }
+    p{
+      font-size: 12px;
+      opacity: 0.5;
+      &:hover{
+        opacity: 1;
+        transition: all 0.3s ease-in;
+      }
+    }
+  }
+}
+.page-id-7 .main-footer {
+  bottom: 0;
+}

@@ -1,0 +1,11 @@
+# Ignore everything
+uploads
+upgrade
+plugins/*
+themes/*
+node_modules
+
+# But not these files...
+!.gitignore
+!themes/takosking
+# etc...

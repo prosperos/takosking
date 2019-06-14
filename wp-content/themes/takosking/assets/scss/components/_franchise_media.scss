@@ -1,0 +1,324 @@
+@media (max-width: 1600px) {
+  .frachise {
+    .franchisee_slider{
+      width: 560px;
+      .item_image {
+        height: 520px;
+        width: 540px;
+        top: 36px;
+        left: 10px;
+      }
+    }
+  }
+  .history {
+    .history_text {
+      .info{
+        margin-top: 0;
+      }
+      .title{
+        margin-bottom: 15px;
+      }
+    }
+  }
+  .maps_restorant {
+    .followers{
+      margin-left: 30px;
+    }
+    #wpsl-stores {
+      .wpsl-store-location{
+        p{
+          margin-left: 40px;
+        }
+      }
+      .wpsl-direction-wrap{
+        margin-left: 40px;
+      }
+    }
+    #wpsl-search-wrap {
+      &::before{
+        right: 474px;
+      }
+    }
+  }
+}
+@media (max-width: 1500px) {
+  .history {
+    .history_text {
+      .info{
+        top: 55px;
+      }
+    }
+  }
+  .development {
+    .tabbed>label{
+      padding: 18px 82.6px;
+    }
+  }
+}
+@media (max-width: 1200px) {
+  .frachise {
+    .franchisee_slider{
+      width: 460px;
+      .item_image {
+        height: 490px;
+        width: 440px;
+        top: 58px;
+        left: 10px;
+      }
+    }
+  }
+  .history {
+    .history_text{
+      .info{
+        top: 35px;
+      }
+    }
+  }
+  .development {
+    .tabbed>label{
+      padding: 18px 52.6px;
+    }
+    .tabs>div{
+      padding: 16px 20px 10px;
+    }
+  }
+  .maps_restorant{
+    #wpsl-search-wrap::before{
+      right: 364px;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .join_us_frenchisee {
+    .background_join_us{
+      background-image: none;
+    }
+  }
+  .frachise{
+    .franchisee_slider{
+      max-width: 100%;
+      bottom: 0;
+      width: 100%;
+      .item_image{
+        width: 97%;
+        top: 70px;
+      }
+    }
+    .arrow_next_block{
+      display: none;
+    }
+    .restaurant_text {
+      position: relative;
+      left: 0;
+      bottom: -120px;
+      z-index: 2;
+    }
+    .info {
+      margin-left: 0;
+      margin-top: 30px;
+      position: static;
+    }
+  }
+  .history {
+    .history_text {
+      width: 100%;
+      height: 350px;
+      background-size: cover;
+      .info{
+        width: 85%;
+        margin-left: 40px;
+      }
+    }
+  }
+  .development {
+    .tabbed>label{
+      padding: 18px 25.6px;
+      font-size: 14px;
+    }
+    .tabs{
+      height: 415px;
+      background-size: cover;
+    }
+  }
+  .maps_restorant {
+    #wpsl-search-wrap{
+      &:before{
+        right: 300px;
+      }
+      .wpsl-search-btn-wrap{
+        margin-left: 50px;
+      }
+    }
+  }
+  .maps_restorant{
+    #wpsl-search-wrap::before{
+      right: 0;
+    }
+    #wpsl-result-list,#wpsl-gmap{
+      display: inline-block;
+      width: 100%;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .history {
+    .history_text {
+      .title{
+        margin-bottom: 0;
+      }
+      .info{
+        font-size: 14px;
+      }
+    }
+  }
+  .development {
+    .tabbed{
+      display: none;
+    }
+    .tab-content{
+      display: block;
+      .card-header{
+        border: none;
+        background-color: transparent;
+        background-size: cover;
+      }
+
+      .card{
+        background-color: transparent;
+        .card-header{
+          display: flex;
+          &:after{
+            content: '';
+            background-image: url(../images/Group22.svg);
+            background-position: right;
+            width: 50px;
+            height: 50px;
+            background-repeat: no-repeat;
+            transform: rotate(90deg);
+
+            position: absolute;
+            right: -1px;
+            top: -13px;
+          }
+          h5{
+            .btn-link{
+              text-align: left;
+              font-size: 20px;
+              white-space: pre-line;
+              color: white;
+            }
+          }
+        }
+      }
+      .card.active{
+        .card-header {
+          background-image: url(../images/tab_small.svg);
+          background-repeat: no-repeat;
+          padding: 5px 0 0 10px;
+          margin-bottom: 15px;
+          &:after{
+            transform: rotate(270deg);
+            top: 16px;
+            position: absolute;
+          }
+        }
+
+      }
+      .card-body{
+        color: white;
+        font-family: $opensans;
+        font-size: 14px;
+        background-image: url(../images/city.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    }
+  }
+  .main-footer {
+    .left_side {
+      .site_info{
+        span{
+          a{
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  .container{
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .frachise {
+    .franchisee_slider {
+      .item_image{
+        left: 5px;
+      }
+    }
+  }
+
+  .join_us_frenchisee {
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+    .frenchice_join_us {
+      margin: 0 10px;
+
+      p {
+        opacity: 0.7;
+        br {
+          display: none;
+        }
+      }
+      h4{
+        line-height: 26px;
+        br{
+          display: none;
+        }
+      }
+      .our_menu_left{
+        margin-top: 40px;
+      }
+    }
+  }
+  .history {
+    .history_text {
+      height: 650px;
+      background-image: url(../images/city.svg);
+      background-repeat: no-repeat;
+      background-position: center -6px;
+      background-size: contain;
+      .info{
+        margin-left: 30px;
+        margin-top: 60px;
+        padding-top: 15px;
+        padding-right: 11px;
+        overflow: visible;
+      }
+    }
+    .main_history_block{
+      .title{
+        margin-bottom: -24px;
+      }
+    }
+  }
+  .restaurant.concept{
+    padding-left: 30px;
+    margin-right: 30px;
+  }
+  .development {
+    .tabbed > label {
+
+    }
+  }
+  .legal_notices {
+    .number_items {
+      .count{
+        margin: 0;
+      }
+    }
+  }
+}
